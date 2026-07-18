@@ -426,22 +426,22 @@
             <div class="forma-footer">
                 <p class="footer-text">Subscribe</p>
 
-                <div class="form-field-footer">
+                <form class="form-field-footer">
                     <input class="subscribe-input" name="in-email" id="in-email" type="text" placeholder="E-mail">
 
-                    <button class="footer-btn footer-text">
+                    <button class="footer-btn footer-text" type="submit">
                         Subscribe 
-                        <svg class="plane-icon" width="24" height="20">
+                        <svg class="plane-icon" width="24" height="24">
                             <use href="./images/icons.svg#plane"></use>
                         </svg>
                     </button>
-                </div>
+                </form>
             </div>
             
         </div>
     </footer>
 
-    <div class="modal-overlay ">
+    <div class="modal-overlay" id="modal">
         <div class="modal">
             <div class="close-btn">
                 <svg class="btn" width="8" height="8">
@@ -453,7 +453,7 @@
                 Leave your contacts and we will call you back
             </p>
 
-            <div class="forma">
+            <form class="forma">
                 <div class="form-field">
                     <div class="inputs">
                         <div class="name">
@@ -479,7 +479,7 @@
                         <div class="email">
                             <label class="form-label" for="input-email">Email</label>
                             <div class="input-wrapper">
-                                <input class="form-input" name="input-email" id="input-email" type="text">
+                                <input class="form-input" name="input-email" id="input-email" type="email">
                                 <svg class="form-icon" width="15" height="12">
                                     <use href="./images/icons.svg#Letter"></use>
                                 </svg>
@@ -505,7 +505,7 @@
                 </div>
                 
                 <button type="button" class="form-btn">Send</button>
-            </div>
+            </form>
         </div>
     </div>
 </body>
